@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Language School</title>
+    <link rel="stylesheet" href="proje01.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,800;1,200;1,300;1,600;1,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="proje01.html"><img src="img/logo.png" ></a>
+             <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"onclic="hideMenu()"></i>
+                <ul>
+                    <li> <a href="">HOME</a></li>
+                    <li> <a href="">ABOUT</a></li>
+                    <li> <a href="">COURSE</a></li>
+                    <li> <a href="">BLOG</a></li>
+                    <li> <a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclic="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggest Online Language Course</h1>
+            <p>Learning language is one of the easiest things in the world.You just need to join our online courses and <br>you are good to learn Spanish and English.</p>
+             <a href=""class="hero-btn">Visit Us To Know More</a>
+        </div>
+
+        
+    </section>
+    <!--------Course---->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Spanish Course for adult.\Spanish Course for children.</p>
+        <p>English Course for adult.\English Course for children.</p>
+        <p>Arabic Course for adult.\Arabic Course for children</p>
+        <p>Turkish Course for adult.\Turkish Course for children</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Beginner</h3>
+                <p>If you’re interested in learning English,Spanish,Arabic and Turkish for Beginners, our method will help you achieve it naturally and immersively from anywhere.
+
+                    The online course was developed by experts in Language education who know what beginners need.</p>
+            </div>
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>If you’re interested in learning English,Spanish,Arabic and Turkish for Intermediate, our method will help you achieve it naturally and immersively from anywhere.
+
+                    The online course was developed by experts in Language education who know what Intermediate level  need.</p>
+            </div>
+            <div class="course-col">
+                <h3>Advance</h3>
+                <p>If you’re interested in learning English,Spanish,Arabic and Turkish for Advance, our method will help you achieve it naturally and immersively from anywhere.
+
+                    The online course was developed by experts in Language education who know what advance level need.</p>
+            </div>
+        </div>
+
+    </section>
+    <!--------JavaScript for loggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+           navLinks.style.right ="0"; 
+        }
+        function hideMenu(){
+           navLinks.style.right ="-200"; 
+        }
+    </script>
+
+    <!------Our Resourses-->
+    <section class="resourses">
+      <h1>Our Resourses</h1> 
+      <p>Edu Map special presentations and pdf files, oxford and cambdridge books,extra online practice web pages,online reading platforms like razkids for english and spanish,online reading platforms for arabic and turkish. Native speaker teachers.</p> 
+   <div class="row">
+    <div class="resourses-col">
+        <img src="img/onlineadult.jpg" >
+        <h3>World Class Online Library</h3>
+        <p> We offer Online Library Our Students </p>
+    </div>
+    <div class="resourses-col">
+        <img src="img/onlinekindergarten.jpg" >
+        <h3>Online Language Practice</h3>
+        <p> We offer Online Practice to Our Students </p>
+    </div>
+    <div class="resourses-col">
+        <img src="img/onlineenglish.jpg" >
+        <h3> Online Live Lessons</h3>
+        <p> We offer Online Live lessons to Our Students </p>
+    </div>
+   </div>
+    </section>
+
+    <!---Call To Action-->
+    <section class="cta">
+        <h1>Enroll for Our Various Online Courses <br>Anywhere From The World</h1>
+    <a href=""class="hero-btn">CONTACT US</a>
+    </section>
+    
+
+    <!-------footer------>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We offer %100 online language courses for 4 languages with any ages. We have courses for toddlers to adults with a small groups. Our teacher are experienced teachers around the world. You wiil have a chance to speak with  native speakers.</p>
+    </section>
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <p>Made with love by Hacer </p> 
+    </div>
+   
+</body>
+</html>
